@@ -1,0 +1,11 @@
+.MyPokemon{
+
+}
+
+.MyPokemonTitle {
+	padding: 20px 0 40px;
+	width: 100%;
+	font-size: 130%;
+	font-weight: 600;
+	color: rgba(0,0,0,.5);
+}

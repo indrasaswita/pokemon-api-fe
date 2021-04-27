@@ -1,0 +1,170 @@
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+
+.PokemonDetail{
+	max-width: 250px;
+	min-height: 400px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 7px solid #628a61;
+	border-radius: 10px;
+	background-color: #bedabd;
+	display: flex;
+	flex-direction: column;
+}
+
+.PokemonDetail .PokemonName{
+	text-transform: uppercase;
+	font-size: 120%;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.PokemonDetail .PokemonSprite {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 20px 15px;
+	background-color: #f4f4f4;
+	border-color: #d8d8d8;
+	border: 1.5px solid #628a61;
+	box-shadow: inset 0 -10px 30px -8px rgba(0,0,0,.5);
+}
+
+.PokemonDetail .PokemonSprite img {
+	width: 80px;
+	height: 80px;
+}
+
+.PokemonDetail .PokemonStat{
+	display: flex;
+	align-items: center;
+}
+
+.PokemonDetail .PokemonAbilityWrapper {
+	display: flex;
+}
+
+.PokemonDetail .PokemonTypeWrapper{
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.PokemonDetail .PokemonStatisticWrapper{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.PokemonCatchWrapper{
+	max-width: 250px;
+	border: 7px solid #628a61;
+	border-radius: 10px;
+	background-color: #bedabd;
+	padding: 10px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.PokemonCatchLoading {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.PokemonCatchLoading img{
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+}
+
+.PokemonCatchWrapper .btn{
+	width: 80%;
+	background-color: #272;
+	color: white;
+	font-weight: 600;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 6px;
+	font-size: 90%;
+	transition: .2s all;
+	cursor: pointer;
+}
+
+.DetailFormInput{
+	background-color: white;
+	padding: 6px 15px;
+	border: 1px solid rgba(0,0,0,.1);
+	color: #050;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	outline: 0 !important;
+}
+
+.DetailFormInput::placeholder{
+	font-weight: normal;
+	color: #aaa;
+}
+
+.InfoText{
+	margin-bottom: 20px;
+	font-size: 90%;
+	font-weight: 600;
+	line-height: 1.3;
+	padding: 0 20px;
+	color: #050;
+}
+.InfoError{
+	margin-top: 10px;
+	font-size: 75%;
+	font-weight: 600;
+	line-height: 1;
+	padding: 0 5px;
+	color: #500;
+}
+
+.PokemonCatchWrapper .btn:hover,
+.PokemonCatchWrapper .btn:focus {
+	background-color: #050;
+}

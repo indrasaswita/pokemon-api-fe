@@ -1,0 +1,20 @@
+.Monster{
+	width: 100px;
+	height: 30px;
+	display: inline-flex;
+	padding: 5px 20px;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 80%;
+	cursor: pointer;
+}
+
+.Monster:hover,
+.Monster:focus{
+	background-color: #f4f4e2;
+}

@@ -1,0 +1,33 @@
+.PokemonAbility{
+	flex: 1;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.AbilityName{
+	font-size: 60%;
+	font-weight: bold;
+	letter-spacing: .2px;
+}
+
+.AbilityImage{
+	width: 40px;
+	height: 40px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(0,0,0,.5);
+	border-radius: 4px;
+	margin-bottom: 6px;
+	background-color: rgba(255,255,255,.3);
+}
+
+.AbilityImage.None{
+	background-color: rgba(0,0,0,.1);
+	color: rgba(0,0,0,.3);
+	border: 1px solid rgba(0,0,0,.1);
+}

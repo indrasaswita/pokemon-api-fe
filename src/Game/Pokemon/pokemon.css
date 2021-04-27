@@ -1,0 +1,58 @@
+.Pokemon{
+	display: block;
+	width: calc(100% - 20px);
+	padding: 10px;
+}
+
+.PokeLogo{
+	text-align: center;
+	padding: 20px 0 40px;
+}
+.PokeLogo img{
+	max-width: 200px;
+}
+
+.Pokemon .LoadMore{
+	display: block;
+	margin: 20px;
+	text-align: center;
+}
+
+.Pokemon .LoadMore .btn {
+	background-color: #f4f4f4;	
+	border: 1px solid #e2e2e2;
+	display: inline-block;
+	padding: 10px 20px;
+	min-width: 180px;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 80%;
+	transition: .2s background-color;
+	cursor: pointer;
+}
+
+
+.Pokemon .LoadMore .btn:hover,
+.Pokemon .LoadMore .btn:focus {
+	background-color: #777;
+	color: white;
+}
+
+.MyPoke{
+	margin-bottom: 20px;
+}
+.MyPoke .btn{
+	background-color: #f4f4f4;	
+	border: 1px solid #e2e2e2;
+	padding: 6px 10px;
+	font-weight: 600;
+	font-size: 80%;
+	border-radius: 3px;
+	transition: .2s background-color;
+	cursor: pointer;
+}
+
+.MyPoke .btn:hover,
+.MyPoke .btn:focus{
+	background-color: #e6e6e6;
+}
