@@ -10,8 +10,8 @@ ReactDOM.render(
   <React.StrictMode>
   	<HelmetProvider>
 		  <Helmet>
-		    <title>Tokopedia Test: Pokemon</title>
-		    <meta name="description" content="This pokemon web is used for Tokopedia technical test." />
+		    <title>Pokemon API</title>
+		    <meta name="description" content="This pokemon web is used for technical test." />
 		  </Helmet>
 
 	    <App />
